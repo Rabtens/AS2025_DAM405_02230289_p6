@@ -1,0 +1,14 @@
+Downloading artifacts:   0%|          | 0/8 [00:00<?, ?it/s]Downloading artifacts:  12%|█▎        | 1/8 [00:00<00:00, 13025.79it/s]Downloading artifacts:  25%|██▌       | 2/8 [00:00<00:00, 8338.58it/s] Downloading artifacts:  38%|███▊      | 3/8 [00:00<00:00, 8383.02it/s]Downloading artifacts:  50%|█████     | 4/8 [00:00<00:00, 9346.64it/s]Downloading artifacts:  62%|██████▎   | 5/8 [00:00<00:00, 10092.17it/s]Downloading artifacts:  75%|███████▌  | 6/8 [00:00<00:00, 10681.59it/s]Downloading artifacts:  88%|████████▊ | 7/8 [00:00<00:00, 11214.72it/s]Downloading artifacts: 100%|██████████| 8/8 [00:00<00:00, 7966.39it/s] Downloading artifacts: 100%|██████████| 8/8 [00:00<00:00, 7070.04it/s]
+2026/10/17 18:19:44 INFO mlflow.models.flavor_backend_registry: Selected backend for flavor 'python_function'
+2026/10/17 18:19:44 INFO mlflow.pyfunc.backend: === Running command 'exec uvicorn --host 127.0.0.1 --port 5001 --workers 1 mlflow.pyfunc.scoring_server.app:app'
+INFO:     Started server process [420]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53680 - "GET /ping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53686 - "POST /invocations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53688 - "POST /invocations HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [420]

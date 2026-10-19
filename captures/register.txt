@@ -1,0 +1,5 @@
+Successfully registered model 'wine-classifier'.
+2026/10/17 18:19:30 WARNING mlflow.tracking._model_registry.fluent: Run with id ea5b5a77dabe4cfd8cfba403ae2a8ad4 has no artifacts at artifact path 'model', registering model based on models:/m-1b54c8a08ff84a19bce36769f174f713 instead
+Created version '1' of model 'wine-classifier'.
+Registered version: 1
+Alias 'champion' -> wine-classifier v1 (run rf_n100_dNone)

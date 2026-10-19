@@ -1,0 +1,13 @@
+        run_name  n_estimators max_depth  accuracy  f1_macro  cv_accuracy  log_loss  train_time_s
+1  rf_n100_dNone           100      None       1.0       1.0       0.9786    0.1162        0.1113
+2     rf_n100_d5           100         5       1.0       1.0       0.9786    0.1193        0.1268
+3  rf_n200_dNone           200      None       1.0       1.0       0.9717    0.1166        0.2715
+4     rf_n200_d5           200         5       1.0       1.0       0.9717    0.1179        0.1911
+5     rf_n200_d3           200         3       1.0       1.0       0.9717    0.1661        0.2696
+6     rf_n100_d3           100         3       1.0       1.0       0.9717    0.1681        0.0969
+7   rf_n50_dNone            50      None       1.0       1.0       0.9714    0.1262        0.0554
+8      rf_n50_d3            50         3       1.0       1.0       0.9645    0.1855        0.0535
+9      rf_n50_d5            50         5       1.0       1.0       0.9643    0.1296        0.0531
+
+Best run: rf_n100_dNone  run_id=ea5b5a77dabe4cfd8cfba403ae2a8ad4  accuracy=1.0000  cv_accuracy=0.9786  log_loss=0.1162
+9 run(s) share the top accuracy

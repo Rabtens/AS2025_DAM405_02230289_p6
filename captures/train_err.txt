@@ -1,0 +1,3 @@
+2026/10/17 18:17:41 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2026/10/17 18:17:41 INFO mlflow.store.db.utils: Updating database tables
+2026/10/17 18:17:42 INFO mlflow.tracking.fluent: Experiment with name 'wine-classifier' does not exist. Creating a new experiment.

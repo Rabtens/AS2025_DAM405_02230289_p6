@@ -1,0 +1,9 @@
+n=50 depth=3 acc=1.0000 cv_acc=0.9645 log_loss=0.1855
+n=50 depth=5 acc=1.0000 cv_acc=0.9643 log_loss=0.1296
+n=50 depth=None acc=1.0000 cv_acc=0.9714 log_loss=0.1262
+n=100 depth=3 acc=1.0000 cv_acc=0.9717 log_loss=0.1681
+n=100 depth=5 acc=1.0000 cv_acc=0.9786 log_loss=0.1193
+n=100 depth=None acc=1.0000 cv_acc=0.9786 log_loss=0.1162
+n=200 depth=3 acc=1.0000 cv_acc=0.9717 log_loss=0.1661
+n=200 depth=5 acc=1.0000 cv_acc=0.9717 log_loss=0.1179
+n=200 depth=None acc=1.0000 cv_acc=0.9717 log_loss=0.1166

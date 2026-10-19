@@ -1,0 +1,5 @@
+Registry: wine-classifier latest version = v1 (run ea5b5a77)
+Loaded model prediction: [0 0 2 0 1]
+True labels            : [0 0 2 0 1]
+Accuracy of loaded model on the full test set: 1.0000
+models:/wine-classifier@champion gives identical predictions: True

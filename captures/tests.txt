@@ -1,0 +1,12 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python3
+rootdir: /home/claude/practical6
+plugins: anyio-4.15.1, Faker-40.43.0
+collecting ... collected 4 items
+
+test_pipeline.py::test_experiment_has_multiple_comparable_runs PASSED    [ 25%]
+test_pipeline.py::test_every_run_logged_a_model_artifact PASSED          [ 50%]
+test_pipeline.py::test_model_registered_with_at_least_one_version PASSED [ 75%]
+test_pipeline.py::test_registered_model_loads_and_predicts PASSED        [100%]
+
+============================== 4 passed in 4.71s ===============================

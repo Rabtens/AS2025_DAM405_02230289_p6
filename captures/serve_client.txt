@@ -1,0 +1,2 @@
+HTTP 200 -> {'predictions': [0, 0, 2, 0, 1]}
+True labels: [0, 0, 2, 0, 1]

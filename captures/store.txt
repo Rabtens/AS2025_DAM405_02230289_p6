@@ -1,0 +1,36 @@
+$ ls -1  (project root)
+__pycache__
+mlruns
+best_run.txt
+compare_runs.py
+config.py
+load_and_predict.py
+mlflow.db
+register_model.py
+requirements.txt
+run_all.sh
+runs_comparison.csv
+serve_client.py
+test_pipeline.py
+train.py
+
+$ ls mlruns/1/models   # one logged-model folder per run
+m-0ca24ecae4134f4cbf96a4fe433d2099
+m-1b54c8a08ff84a19bce36769f174f713
+m-51495002d74544eda147e9a80aea67ef
+m-5ea9fff214014e7bb33ba11119330746
+m-6859846bc5c248458320edcc4696c5a2
+m-a5c1270677fc4db8bedb643070a6e266
+m-baabeeb8f4a6464d99527f462987bc9f
+m-c71468604cd243bb8e018078e2c8e497
+m-e39d8dd6ee7e40d79436828c96469dcd
+
+$ ls mlruns/1/models/m-1b54c8a08ff84a19bce36769f174f713/artifacts
+MLmodel
+conda.yaml
+input_example.json
+model.skops
+python_env.yaml
+registered_model_meta
+requirements.txt
+serving_input_example.json
